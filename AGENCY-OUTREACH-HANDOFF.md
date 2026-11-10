@@ -1,6 +1,6 @@
 # Agency outreach — copy and Claude handoff
 
-Status: first-draft copy for CT's review. No website implementation authorized.
+Status: Website implementation authorized by CT on November 10, 2026. Initial design is in agency-site/index.html. uPonder Labs is the working brand; confirm final branding and contact destination before public launch.
 Prepared November 9, 2026.
 
 ## 1. Pastor follow-up email
@@ -82,13 +82,13 @@ Introduce the agency's capabilities and encourage a qualified inquiry. The site 
 
 ## 4. Claude pickup instructions
 
-Read this document before working. This handoff authorizes copy preparation and review only. CT explicitly said not to build the site.
+Read this document before working. CT has now authorized building the agency website. This supersedes the earlier copy-only restriction. Start from agency-site/index.html, a self-contained responsive HTML/CSS/JS implementation.
 
 ### Immediate objective
 Review and refine the two-paragraph email and high-level one-page agency overview for CT. Keep the email concise, respectful, and focused on congregation growth and upgrading the digital ministry. Keep the overview reusable across prospective clients.
 
 ### Boundaries
-- Do not build, deploy, or publish a website.
+- Continue the website design and implementation. Keep the review preview private until CT directs public launch.
 - Do not send the email or contact the pastor.
 - Do not turn this into a detailed proposal or give away the client-specific strategy.
 - Do not add fees, retainers, ad budgets, deliverable counts, or guarantees.
@@ -99,8 +99,8 @@ Review and refine the two-paragraph email and high-level one-page agency overvie
 ### Next deliverable when CT requests it
 Format the approved overview into a simple one-page PDF for the email attachment. Use only confirmed agency/contact information. Inspect the rendered result before delivery. No website is needed to send the follow-up.
 
-### Before any future website implementation
-Obtain CT's direction to build and confirm the agency name, public contact details, preferred branding, and desired contact action. Follow then-current repository instructions. The content brief is a starting point, not permission to implement.
+### Website continuation
+Build authorization is granted. The initial design uses warm cream, charcoal, muted green, and burnt orange with rectangular controls, responsive layouts, and all five service areas. Confirm the final agency branding and public contact destination with CT. The current form creates a local copyable brief only; it does not send or store leads. Connect a real inquiry or booking destination before public launch, without claiming success when nothing was submitted. Follow current repository instructions. The static file can be opened directly or served with any static host; no dependencies or build are needed. Desktop layout and brief generation were checked in browser; mobile CSS is implemented but still needs device QA.
 
 ### Acceptance checks
 - Email contains two substantive paragraphs and a clear next step.
@@ -108,4 +108,4 @@ Obtain CT's direction to build and confirm the agency name, public contact detai
 - No detailed client strategy, unapproved pricing, or unsupported claims.
 - Email attachment/link wording matches what is actually available.
 - Client-facing copy contains no internal production notes.
-- No website files or deployments are created under this handoff.
+- Preserve the working website; verify responsive layout, keyboard navigation, and inquiry behavior after edits.
