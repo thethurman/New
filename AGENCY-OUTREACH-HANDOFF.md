@@ -109,3 +109,7 @@ Build authorization is granted. The initial design uses warm cream, charcoal, mu
 - Email attachment/link wording matches what is actually available.
 - Client-facing copy contains no internal production notes.
 - Preserve the working website; verify responsive layout, keyboard navigation, and inquiry behavior after edits.
+
+
+## Separate practice pages — November 10 update
+CT requested separate Cybersecurity and Government Contracting links. Implemented agency-site/cybersecurity.html and agency-site/government.html with shared visual styling, header/footer navigation, return paths, and matching inquiry options. Homepage retains the agency's five service areas. The supplied uponder-light.html and uponder-dark.html are alternate cybersecurity homepages, not the missing government page. Cybersecurity content was adapted from them; government capability copy is a new draft for CT's review. Unverified training metrics, contract vehicles, registrations, certifications, and product pricing were not imported. Internal links and desktop page navigation checked; mobile-specific visual QA remains outstanding. Original uploaded designs are unchanged.
